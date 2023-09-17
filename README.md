@@ -1,63 +1,76 @@
-# Upload de Vídeos com IA Web
+# Upload de Vídeos com IA
 
-Esta é a interface da aplicação desenvolvida durante a Next Level Week (NLW) da Rocketset, na trilha Mastery. Ela permite que você faça upload de seus vídeos e, com a ajuda da inteligência artificial, cria automaticamente títulos chamativos e descrições otimizadas para uma melhor indexação nos mecanismos de busca. Tudo isso com uma interface de usuário moderna construída em React, Tailwind CSS, shadcn/ui e Radix UI.
+Esta é a interface da aplicação desenvolvida durante a Next Level Week (NLW) da Rocketset, na trilha Mastery. Ela permite que você faça upload de seus vídeos e, com a ajuda da inteligência artificial, cria automaticamente títulos chamativos e descrições otimizadas para uma melhor indexação nos mecanismos de busca. O front-end é construído em React com as bibliotecas Tailwind CSS, Shadcn/UI e Radix UI, enquanto o back-end utiliza Node.js com Fastify, o banco de dados é gerenciado com Prisma, e a IA é alimentada pela API da OpenAI.
 
-## Requisitos do Sistema
 
-Antes de começar a utilizar nossa aplicação, certifique-se de que seu ambiente atende aos seguintes requisitos:
+## Tecnologias Utilizadas
 
-- Node.js: Versão 14 ou superior.
-- NPM: Gerenciador de pacotes Node.js.
-- Git: Para clonar o repositório da aplicação.
+### Front-end
 
-## Como Instalar
+- **React**: Utilizado para construir a interface do usuário da aplicação, proporcionando uma experiência de usuário dinâmica e responsiva.
 
-Siga os passos abaixo para instalar a aplicação em sua máquina:
+- **Tailwind CSS**: Utilizado para estilizar a aplicação de forma rápida e consistente.
 
-1. Clone o repositório:
+- **Shadcn/UI**: Componentes elegantes utilizados para aprimorar a experiência do usuário.
+
+- **Radix UI**: Componentes de alta qualidade para melhorar a usabilidade da aplicação.
+
+### Back-end
+
+- **Node.js**: Utilizado para criar o servidor e lidar com a lógica do lado do servidor.
+
+- **Fastify**: Framework web utilizado para criar uma API REST rápida e eficiente.
+## Como Usar
+
+1. Clone este repositório:
 
 ```bash
-git clone https://github.com/karGuimaraes/upload-ai-web.git
+git clone https://github.com/karGuimaraes/nlw-upload-ai.git
 ```
 
-2. Navegue até o diretório do projeto:
+2. Acesse o diretório do front-end:
 
 ```bash
-cd nome-do-repositorio
+cd nlw-upload-ai/upload-ai-web
 ```
 
-3. Instale as dependências:
+3. Instale as dependências do front-end:
 
 ```bash
 npm install
 ```
 
-## Como Executar
-
-Agora que você instalou a aplicação, siga estas etapas para executá-la:
-
-1. Inicie o servidor de desenvolvimento:
+4. Acesse o diretório do back-end:
 
 ```bash
-npm run dev
+cd ..
+cd upload-ai-api
 ```
 
-2. Abra seu navegador e acesse a seguinte URL:
+5. Instale as dependências do back-end:
 
 ```bash
-http://localhost:5173
+npm install
 ```
 
-## Como Utilizar
+6. Configure o banco de dados no arquivo `.env` no diretório `upload-ai-api` e execute as migrações do Prisma:
 
+```bash
+npx prisma migrate dev
+```
 
+7. Inicie o servidor do front-end:
 
-## Recursos Utilizados
+```bash
+cd ..
+cd upload-ai-web
+npm start
+```
 
-- **React**: Uma biblioteca JavaScript para construir interfaces de usuário interativas.
-- **Tailwind CSS**: Um framework CSS utilitário para criação de designs modernos e responsivos.
-- **shadcn/ui**: Uma biblioteca de componentes de IU altamente personalizável.
-- **Radix UI**: Uma biblioteca de componentes de IU acessíveis e de alto desempenho.
-- **Inteligência Artificial**: Utilizamos IA para criar títulos e descrições atraentes e otimizadas para SEO.
+8. Inicie o servidor do back-end:
 
-![image](https://github.com/karGuimaraes/nlw-upload-ai/assets/39937365/d42ec745-4c91-4f5a-8b7c-40fe907201b2)
+```bash
+cd ..
+cd upload-ai-api
+npm start
+```
