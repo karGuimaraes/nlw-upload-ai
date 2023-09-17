@@ -60,4 +60,4 @@ http://localhost:5173
 - **Radix UI**: Uma biblioteca de componentes de IU acessíveis e de alto desempenho.
 - **Inteligência Artificial**: Utilizamos IA para criar títulos e descrições atraentes e otimizadas para SEO.
 
-![Alt text](image.png)
+![image](https://github.com/karGuimaraes/nlw-upload-ai/assets/39937365/d42ec745-4c91-4f5a-8b7c-40fe907201b2)
