@@ -2,7 +2,7 @@
 
 Esta é a interface da aplicação desenvolvida durante a Next Level Week (NLW) da Rocketset, na trilha Mastery. Ela permite que você faça upload de seus vídeos e, com a ajuda da inteligência artificial, cria automaticamente títulos chamativos e descrições otimizadas para uma melhor indexação nos mecanismos de busca. O front-end é construído em React com as bibliotecas Tailwind CSS, Shadcn/UI e Radix UI, enquanto o back-end utiliza Node.js com Fastify, o banco de dados é gerenciado com Prisma, e a IA é alimentada pela API da OpenAI.
 
-![Animação](https://github.com/karGuimaraes/nlw-upload-ai/assets/39937365/838d9a7e-9078-4f1a-b58b-b9debed676e0)
+![Animação](https://github.com/karGuimaraes/nlw-upload-ai/assets/39937365/cfd24edf-66d1-4ed1-8ddf-1c92a365fc0d)
 
 ## Tecnologias Utilizadas
 
